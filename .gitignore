@@ -1,0 +1,46 @@
+
+# Node.js dependencies
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
+**/*.tsbuildinfo
+
+# Local environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Staging.json
+**/secrets.json
+*.pem
+*.pfx
+*.key
+
+# .NET build output
+**/bin/
+**/obj/
+**/publish/
+
+# Terraform generated files and secrets
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/crash.*.log
+**/*.tfvars
+**/*.tfvars.json
+!**/*.tfvars.example
+**/*.tfplan
+
+# Ansible secrets
+**/vault-password*
+**/*.vault-password
+
+# Editor and system files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
